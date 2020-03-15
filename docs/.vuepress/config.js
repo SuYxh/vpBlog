@@ -6,6 +6,11 @@ module.exports = {
         ['link', { rel: 'icon', href: '/tg.png' }],
         ['link', { rel: 'manifest', href: '/manifest.json' }]
     ],
+    locales: {
+        '/': {
+          lang: 'zh-CN' // 将会被设置为 <html> 的 lang 属性
+        }   
+      },
     plugins: ['@vuepress/pwa', {
         serviceWorker: true
     }
