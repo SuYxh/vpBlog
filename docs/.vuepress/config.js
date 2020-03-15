@@ -6,6 +6,7 @@ module.exports = {
         repo: 'SuYxh/vpblog',  
         editLinks: true,
         editLinkText: '编辑文档',
+        docsDir: 'docs',
         lastUpdated: '最近更新',
         nav: [
             { text: 'Home', link: '/' },
