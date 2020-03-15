@@ -1,6 +1,6 @@
 const pluginConf = require('../../config/pluginsConf.js');
 const navConf = require('../../config/navConf.js');
-const sidebarConf = require('../../config/sidebarConf');
+const sidebarConf = require('../../config/sidebarConf.js');
 
 
 module.exports = {
@@ -13,9 +13,9 @@ module.exports = {
     ],
     locales: {
         '/': {
-          lang: 'zh-CN' // 将会被设置为 <html> 的 lang 属性
-        }   
-      },
+            lang: 'zh-CN' // 将会被设置为 <html> 的 lang 属性
+        }
+    },
     plugins: pluginConf,
 
     themeConfig: {
@@ -24,10 +24,10 @@ module.exports = {
         editLinkText: '编辑文档',
         docsDir: 'docs',
         lastUpdated: '最近更新',
-        serviceWorker:{
-            updatePopup:{
-                message:"内容已更新！",
-                buttonText:"刷新"
+        serviceWorker: {
+            updatePopup: {
+                message: "内容已更新！",
+                buttonText: "刷新"
             }
 
         },
