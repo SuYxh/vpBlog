@@ -1,3 +1,8 @@
+const pluginConf = require('../../config/pluginsConf.js');
+const navConf = require('../../config/navConf.js');
+const sidebarConf = require('../../config/sidebarConf');
+
+
 module.exports = {
     title: 'ironc',
     description: 'ironc的文档, vuepress 文档',
@@ -11,10 +16,8 @@ module.exports = {
           lang: 'zh-CN' // 将会被设置为 <html> 的 lang 属性
         }   
       },
-    plugins: ['@vuepress/pwa', {
-        serviceWorker: true
-    }
-    ],
+    plugins: pluginConf,
+
     themeConfig: {
         repo: 'SuYxh/vpblog',
         editLinks: true,
@@ -28,13 +31,7 @@ module.exports = {
             }
 
         },
-        nav: [
-            { text: 'Home', link: '/' },
-            { text: 'vuepress', link: '/vpstudy/' },
-            { text: 'Blog', link: 'https://cesi.huat.xyz' },
-        ],
-        sidebar: {
-            "/vpstudy/": ["", "one", "two"]
-        }
+        nav: navConf,
+        sidebar: sidebarConf
     }
 }
