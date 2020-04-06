@@ -1,5 +1,5 @@
 # 对象类型
-在 ES5 时存在三种：
+在 ES5 时存在三种：   撒大苏打
 
 native object（原生对象），指语义完全由规范定义且不掺杂任何宿主环境定义的对象。
 built-in object （内置对象），如 Math、Date 等。
