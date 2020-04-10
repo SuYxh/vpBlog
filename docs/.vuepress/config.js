@@ -1,6 +1,6 @@
-const pluginConf = require('../../config/pluginsConf.js');
-const navConf = require('../../config/navConf.js');
-const sidebarConf = require('../../config/sidebarConf.js');
+const pluginConf = require('./config/pluginsConf.js');
+const navConf = require('./config/navConf.js');
+const sidebarConf = require('./config/sidebarConf.js');
 
 
 module.exports = {
