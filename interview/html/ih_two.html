@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>html面试(二) | Kaikeba_Note</title>
+    <meta name="description" content="开课吧、学习笔记">
+    <meta name="generator" content="VuePress 1.4.0">
+    <link rel="icon" href="/vpBlog/kaikeba_icon.jpg">
+    
+    <link rel="preload" href="/vpBlog/assets/css/0.styles.120c65fe.css" as="style"><link rel="preload" href="/vpBlog/assets/js/app.7ab862eb.js" as="script"><link rel="preload" href="/vpBlog/assets/js/2.3d0e44ac.js" as="script"><link rel="preload" href="/vpBlog/assets/js/64.4535aaa0.js" as="script"><link rel="prefetch" href="/vpBlog/assets/js/10.59842bb5.js"><link rel="prefetch" href="/vpBlog/assets/js/11.368cd589.js"><link rel="prefetch" href="/vpBlog/assets/js/12.2a6e825c.js"><link rel="prefetch" href="/vpBlog/assets/js/13.9166ceaa.js"><link rel="prefetch" href="/vpBlog/assets/js/14.a1905d61.js"><link rel="prefetch" href="/vpBlog/assets/js/15.4722ca38.js"><link rel="prefetch" href="/vpBlog/assets/js/16.7c302477.js"><link rel="prefetch" href="/vpBlog/assets/js/17.671e4039.js"><link rel="prefetch" href="/vpBlog/assets/js/18.9e5f2950.js"><link rel="prefetch" href="/vpBlog/assets/js/19.92458a7f.js"><link rel="prefetch" href="/vpBlog/assets/js/20.5cf53c79.js"><link rel="prefetch" href="/vpBlog/assets/js/21.54604f6f.js"><link rel="prefetch" href="/vpBlog/assets/js/22.c4ee7cc4.js"><link rel="prefetch" href="/vpBlog/assets/js/23.eb2ac200.js"><link rel="prefetch" href="/vpBlog/assets/js/24.b0de8f28.js"><link rel="prefetch" href="/vpBlog/assets/js/25.e6b8f19f.js"><link rel="prefetch" href="/vpBlog/assets/js/26.95d101e2.js"><link rel="prefetch" href="/vpBlog/assets/js/27.c76f1c33.js"><link rel="prefetch" href="/vpBlog/assets/js/28.e80e9f7a.js"><link rel="prefetch" href="/vpBlog/assets/js/29.273cf065.js"><link rel="prefetch" href="/vpBlog/assets/js/3.ea0e2674.js"><link rel="prefetch" href="/vpBlog/assets/js/30.17acdd18.js"><link rel="prefetch" href="/vpBlog/assets/js/31.02a6fbf7.js"><link rel="prefetch" href="/vpBlog/assets/js/32.73485822.js"><link rel="prefetch" href="/vpBlog/assets/js/33.245d31a8.js"><link rel="prefetch" href="/vpBlog/assets/js/34.07741e33.js"><link rel="prefetch" href="/vpBlog/assets/js/35.b3ef9ca2.js"><link rel="prefetch" href="/vpBlog/assets/js/36.9b21ae00.js"><link rel="prefetch" href="/vpBlog/assets/js/37.52d042f3.js"><link rel="prefetch" href="/vpBlog/assets/js/38.c090df94.js"><link rel="prefetch" href="/vpBlog/assets/js/39.b3a3bd19.js"><link rel="prefetch" href="/vpBlog/assets/js/4.0394e7c9.js"><link rel="prefetch" href="/vpBlog/assets/js/40.053ff48f.js"><link rel="prefetch" href="/vpBlog/assets/js/41.95914c74.js"><link rel="prefetch" href="/vpBlog/assets/js/42.0736148c.js"><link rel="prefetch" href="/vpBlog/assets/js/43.b92971db.js"><link rel="prefetch" href="/vpBlog/assets/js/44.2e3804af.js"><link rel="prefetch" href="/vpBlog/assets/js/45.9ec44aa7.js"><link rel="prefetch" href="/vpBlog/assets/js/46.a88e0c14.js"><link rel="prefetch" href="/vpBlog/assets/js/47.bfc6e590.js"><link rel="prefetch" href="/vpBlog/assets/js/48.34bd8d4a.js"><link rel="prefetch" href="/vpBlog/assets/js/49.584bfe8c.js"><link rel="prefetch" href="/vpBlog/assets/js/5.b5b11767.js"><link rel="prefetch" href="/vpBlog/assets/js/50.9c9de9ac.js"><link rel="prefetch" href="/vpBlog/assets/js/51.2d62b948.js"><link rel="prefetch" href="/vpBlog/assets/js/52.b35b1990.js"><link rel="prefetch" href="/vpBlog/assets/js/53.ce4c6638.js"><link rel="prefetch" href="/vpBlog/assets/js/54.142625db.js"><link rel="prefetch" href="/vpBlog/assets/js/55.554710f3.js"><link rel="prefetch" href="/vpBlog/assets/js/56.bc81ac2f.js"><link rel="prefetch" href="/vpBlog/assets/js/57.d1728159.js"><link rel="prefetch" href="/vpBlog/assets/js/58.9b9f6af3.js"><link rel="prefetch" href="/vpBlog/assets/js/59.9200d8cf.js"><link rel="prefetch" href="/vpBlog/assets/js/6.a363860f.js"><link rel="prefetch" href="/vpBlog/assets/js/60.34d3de75.js"><link rel="prefetch" href="/vpBlog/assets/js/61.ead67eed.js"><link rel="prefetch" href="/vpBlog/assets/js/62.190a8ffe.js"><link rel="prefetch" href="/vpBlog/assets/js/63.2c2b4778.js"><link rel="prefetch" href="/vpBlog/assets/js/65.e3855459.js"><link rel="prefetch" href="/vpBlog/assets/js/66.dc7320b7.js"><link rel="prefetch" href="/vpBlog/assets/js/67.826e79d6.js"><link rel="prefetch" href="/vpBlog/assets/js/68.1db212c6.js"><link rel="prefetch" href="/vpBlog/assets/js/69.2747b839.js"><link rel="prefetch" href="/vpBlog/assets/js/7.5ab031dc.js"><link rel="prefetch" href="/vpBlog/assets/js/70.4e7bbb46.js"><link rel="prefetch" href="/vpBlog/assets/js/71.7e53baeb.js"><link rel="prefetch" href="/vpBlog/assets/js/72.b9eb6df0.js"><link rel="prefetch" href="/vpBlog/assets/js/73.ee42f459.js"><link rel="prefetch" href="/vpBlog/assets/js/74.42dd55dd.js"><link rel="prefetch" href="/vpBlog/assets/js/75.78632e4d.js"><link rel="prefetch" href="/vpBlog/assets/js/76.598d882d.js"><link rel="prefetch" href="/vpBlog/assets/js/77.294cb794.js"><link rel="prefetch" href="/vpBlog/assets/js/78.8b935a14.js"><link rel="prefetch" href="/vpBlog/assets/js/79.b6ab445b.js"><link rel="prefetch" href="/vpBlog/assets/js/8.b6d76de3.js"><link rel="prefetch" href="/vpBlog/assets/js/80.0e9a0a44.js"><link rel="prefetch" href="/vpBlog/assets/js/81.4fdc3951.js"><link rel="prefetch" href="/vpBlog/assets/js/82.0bfe2695.js"><link rel="prefetch" href="/vpBlog/assets/js/83.ddf2cb76.js"><link rel="prefetch" href="/vpBlog/assets/js/84.b5206a1a.js"><link rel="prefetch" href="/vpBlog/assets/js/85.3fbcfac9.js"><link rel="prefetch" href="/vpBlog/assets/js/86.7249a1b6.js"><link rel="prefetch" href="/vpBlog/assets/js/87.018eb8ea.js"><link rel="prefetch" href="/vpBlog/assets/js/88.496fbdf1.js"><link rel="prefetch" href="/vpBlog/assets/js/89.5f27d33e.js"><link rel="prefetch" href="/vpBlog/assets/js/9.a6c8bd48.js"><link rel="prefetch" href="/vpBlog/assets/js/90.c6aba0e8.js"><link rel="prefetch" href="/vpBlog/assets/js/91.d22a1e01.js"><link rel="prefetch" href="/vpBlog/assets/js/92.8bb5935a.js"><link rel="prefetch" href="/vpBlog/assets/js/93.72984d04.js"><link rel="prefetch" href="/vpBlog/assets/js/94.2d351624.js"><link rel="prefetch" href="/vpBlog/assets/js/95.5ef95fc0.js"><link rel="prefetch" href="/vpBlog/assets/js/96.c2dbdafc.js">
+    <link rel="stylesheet" href="/vpBlog/assets/css/0.styles.120c65fe.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vpBlog/" class="home-link router-link-active"><!----> <span class="site-name">Kaikeba_Note</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/vpBlog/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="学习记录" class="dropdown-title"><span class="title">学习记录</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vpBlog/task/" class="nav-link">
+  任务单
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/document/" class="nav-link">
+  文档
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/homework/" class="nav-link">
+  笔记
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端工具" class="dropdown-title"><span class="title">前端工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vpBlog/tool/git/" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/tool/webpack/" class="nav-link">
+  webpack
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/tool/vscode/" class="nav-link">
+  vscode
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/tool/PicGo/" class="nav-link">
+  PicGo
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/tool/vuepress/" class="nav-link">
+  vuepress
+</a></li></ul></div></div><div class="nav-item"><a href="/vpBlog/project/" class="nav-link">
+  项目记录
+</a></div><div class="nav-item"><a href="/vpBlog/ofen_code/" class="nav-link">
+  常用代码
+</a></div><div class="nav-item"><a href="/vpBlog/blog/" class="nav-link">
+  每周一记
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="面试经验" class="dropdown-title"><span class="title">面试经验</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vpBlog/interview/" class="nav-link router-link-active">
+  面试经验
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/interview/html/" class="nav-link router-link-active">
+  html
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/interview/css/" class="nav-link">
+  css
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/interview/JavaScript/" class="nav-link">
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/interview/arithmetic/" class="nav-link">
+  算法
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/interview/network/" class="nav-link">
+  网络
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="图书" class="dropdown-title"><span class="title">图书</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vpBlog/book/" class="nav-link">
+  一本好书
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/book/book_study/" class="nav-link">
+  读书感悟
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/book/saying/" class="nav-link">
+  语录
+</a></li></ul></div></div> <a href="https://github.com/SuYxh/vpBlog" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/vpBlog/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="学习记录" class="dropdown-title"><span class="title">学习记录</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vpBlog/task/" class="nav-link">
+  任务单
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/document/" class="nav-link">
+  文档
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/homework/" class="nav-link">
+  笔记
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端工具" class="dropdown-title"><span class="title">前端工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vpBlog/tool/git/" class="nav-link">
+  git
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/tool/webpack/" class="nav-link">
+  webpack
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/tool/vscode/" class="nav-link">
+  vscode
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/tool/PicGo/" class="nav-link">
+  PicGo
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/tool/vuepress/" class="nav-link">
+  vuepress
+</a></li></ul></div></div><div class="nav-item"><a href="/vpBlog/project/" class="nav-link">
+  项目记录
+</a></div><div class="nav-item"><a href="/vpBlog/ofen_code/" class="nav-link">
+  常用代码
+</a></div><div class="nav-item"><a href="/vpBlog/blog/" class="nav-link">
+  每周一记
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="面试经验" class="dropdown-title"><span class="title">面试经验</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vpBlog/interview/" class="nav-link router-link-active">
+  面试经验
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/interview/html/" class="nav-link router-link-active">
+  html
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/interview/css/" class="nav-link">
+  css
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/interview/JavaScript/" class="nav-link">
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/interview/arithmetic/" class="nav-link">
+  算法
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/interview/network/" class="nav-link">
+  网络
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="图书" class="dropdown-title"><span class="title">图书</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/vpBlog/book/" class="nav-link">
+  一本好书
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/book/book_study/" class="nav-link">
+  读书感悟
+</a></li><li class="dropdown-item"><!----> <a href="/vpBlog/book/saying/" class="nav-link">
+  语录
+</a></li></ul></div></div> <a href="https://github.com/SuYxh/vpBlog" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="html面试-二"><a href="#html面试-二" class="header-anchor">#</a> html面试(二)</h1> <h4 id="_11-link-标签定义"><a href="#_11-link-标签定义" class="header-anchor">#</a> 11. link 标签定义</h4> <div class="language- extra-class"><pre class="language-text"><code>link 标签定义文档与外部资源的关系。
+
+link 元素是空元素，它仅包含属性。 此元素只能存在于 head 部分，不过它可出现任何次数。
+
+link 标签中的 rel 属性定义了当前文档与被链接文档之间的关系。常见的 stylesheet 指的是定义一个外部加载的样式表。
+</code></pre></div><h4 id="_12-页面导入样式时，使用-link-和-import-有什么区别？"><a href="#_12-页面导入样式时，使用-link-和-import-有什么区别？" class="header-anchor">#</a> 12. 页面导入样式时，使用 link 和 @import 有什么区别？</h4> <div class="language- extra-class"><pre class="language-text"><code>（1）从属关系区别。 @import 是 CSS 提供的语法规则，只有导入样式表的作用；link 是 HTML 提供的标签，不仅可以加
+     载 CSS 文件，还可以定义 RSS、rel 连接属性、引入网站图标等。
+
+（2）加载顺序区别。加载页面时，link 标签引入的 CSS 被同时加载；@import 引入的 CSS 将在页面加载完毕后被加载。
+
+（3）兼容性区别。@import 是 CSS2.1 才有的语法，故只可在 IE5+ 才能识别；link 标签作为 HTML 元素，不存在兼容
+     性问题。
+
+（4）DOM 可控性区别。可以通过 JS 操作 DOM ，插入 link 标签来改变样式；由于 DOM 方法是基于文档的，无法使用 @i
+    mport 的方式插入样式。
+</code></pre></div><h4 id="_13-你对浏览器的理解？"><a href="#_13-你对浏览器的理解？" class="header-anchor">#</a> 13. 你对浏览器的理解？</h4> <div class="language- extra-class"><pre class="language-text"><code>浏览器的主要功能是将用户选择的 web 资源呈现出来，它需要从服务器请求资源，并将其显示在浏览器窗口中，资源的格式通常
+是 HTML，也包括 PDF、image 及其他格式。用户用 URI（Uniform Resource Identifier 统一资源标识符）来指定所请
+求资源的位置。
+
+HTML 和 CSS 规范中规定了浏览器解释 html 文档的方式，由 W3C 组织对这些规范进行维护，W3C 是负责制定 web 标准的
+组织。
+
+但是浏览器厂商纷纷开发自己的扩展，对规范的遵循并不完善，这为 web 开发者带来了严重的兼容性问题。
+
+简单来说浏览器可以分为两部分，shell 和 内核。
+
+其中 shell 的种类相对比较多，内核则比较少。shell 是指浏览器的外壳：例如菜单，工具栏等。主要是提供给用户界面操作，
+参数设置等等。它是调用内核来实现各种功能的。内核才是浏览器的核心。内核是基于标记语言显示内容的程序或模块。也有一些
+ 浏览器并不区分外壳和内核。从 Mozilla 将 Gecko 独立出来后，才有了外壳和内核的明确划分。
+</code></pre></div><h4 id="_14-介绍一下你对浏览器内核的理解？"><a href="#_14-介绍一下你对浏览器内核的理解？" class="header-anchor">#</a> 14. 介绍一下你对浏览器内核的理解？</h4> <div class="language- extra-class"><pre class="language-text"><code>主要分成两部分：渲染引擎和 JS 引擎。
+
+渲染引擎的职责就是渲染，即在浏览器窗口中显示所请求的内容。默认情况下，渲染引擎可以显示 html、xml 文档及图片，它也
+可以借助插件（一种浏览器扩展）显示其他类型数据，例如使用 PDF 阅读器插件，可以显示 PDF 格式。
+
+JS 引擎：解析和执行 javascript 来实现网页的动态效果。
+
+最开始渲染引擎和 JS 引擎并没有区分的很明确，后来 JS 引擎越来越独立，内核就倾向于只指渲染引擎。
+</code></pre></div><h4 id="_15-常见的浏览器内核比较"><a href="#_15-常见的浏览器内核比较" class="header-anchor">#</a> 15. 常见的浏览器内核比较</h4> <div class="language- extra-class"><pre class="language-text"><code>Trident：这种浏览器内核是 IE 浏览器用的内核，因为在早期 IE 占有大量的市场份额，所以这种内核比较流行，以前有很多
+网页也是根据这个内核的标准来编写的，但是实际上这个内核对真正的网页标准支持不是很好。但是由于 IE 的高市场占有率，微
+软也很长时间没有更新 Trident 内核，就导致了 Trident 内核和 W3C 标准脱节。还有就是 Trident 内核的大量 Bug 等
+安全问题没有得到解决，加上一些专家学者公开自己认为 IE 浏览器不安全的观点，使很多用户开始转向其他浏览器。
+
+Gecko：这是 Firefox 和 Flock 所采用的内核，这个内核的优点就是功能强大、丰富，可以支持很多复杂网页效果和浏览器扩
+展接口，但是代价是也显而易见就是要消耗很多的资源，比如内存。
+
+Presto：Opera 曾经采用的就是 Presto 内核，Presto 内核被称为公认的浏览网页速度最快的内核，这得益于它在开发时的
+天生优势，在处理 JS 脚本等脚本语言时，会比其他的内核快3倍左右，缺点就是为了达到很快的速度而丢掉了一部分网页兼容性。
+
+Webkit：Webkit 是 Safari 采用的内核，它的优点就是网页浏览速度较快，虽然不及 Presto 但是也胜于 Gecko 和 Trid
+ent，缺点是对于网页代码的容错性不高，也就是说对网页代码的兼容性较低，会使一些编写不标准的网页无法正确显示。WebKit 
+前身是 KDE 小组的 KHTML 引擎，可以说 WebKit 是 KHTML 的一个开源的分支。
+
+Blink：谷歌在 Chromium Blog 上发表博客，称将与苹果的开源浏览器核心 Webkit 分道扬镳，在 Chromium 项目中研发 B
+link 渲染引擎（即浏览器核心），内置于 Chrome 浏览器之中。其实 Blink 引擎就是 Webkit 的一个分支，就像 webkit 是
+KHTML 的分支一样。Blink 引擎现在是谷歌公司与 Opera Software 共同研发，上面提到过的，Opera 弃用了自己的 Presto 
+内核，加入 Google 阵营，跟随谷歌一起研发 Blink。
+
+</code></pre></div><p>详细的资料可以参考：
+<a href="http://www.cnblogs.com/fullhouse/archive/2011/12/19/2293455.html" target="_blank" rel="noopener noreferrer">《浏览器内核的解析和对比》<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> <a href="https://blog.csdn.net/Summer_15/article/details/71249203" target="_blank" rel="noopener noreferrer">《五大主流浏览器内核的源起以及国内各大浏览器内核总结》<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h4 id="_16-常见浏览器所用内核"><a href="#_16-常见浏览器所用内核" class="header-anchor">#</a> 16. 常见浏览器所用内核</h4> <div class="language- extra-class"><pre class="language-text"><code> （1） IE 浏览器内核：Trident 内核，也是俗称的 IE 内核；
+
+ （2） Chrome 浏览器内核：统称为 Chromium 内核或 Chrome 内核，以前是 Webkit 内核，现在是 Blink内核；
+
+ （3） Firefox 浏览器内核：Gecko 内核，俗称 Firefox 内核；
+
+ （4） Safari 浏览器内核：Webkit 内核；
+
+ （5） Opera 浏览器内核：最初是自己的 Presto 内核，后来加入谷歌大军，从 Webkit 又到了 Blink 内核；
+
+ （6） 360浏览器、猎豹浏览器内核：IE + Chrome 双内核；
+
+ （7） 搜狗、遨游、QQ 浏览器内核：Trident（兼容模式）+ Webkit（高速模式）；
+
+ （8） 百度浏览器、世界之窗内核：IE 内核；
+
+ （9） 2345浏览器内核：好像以前是 IE 内核，现在也是 IE + Chrome 双内核了；
+
+ （10）UC 浏览器内核：这个众口不一，UC 说是他们自己研发的 U3 内核，但好像还是基于 Webkit 和 Trident ，还有说
+      是基于火狐内核。
+</code></pre></div><h4 id="_17-浏览器的渲染原理？"><a href="#_17-浏览器的渲染原理？" class="header-anchor">#</a> 17. 浏览器的渲染原理？</h4> <div class="language- extra-class"><pre class="language-text"><code> （1）首先解析收到的文档，根据文档定义构建一棵 DOM 树，DOM 树是由 DOM 元素及属性节点组成的。
+
+ （2）然后对 CSS 进行解析，生成 CSSOM 规则树。
+
+ （3）根据 DOM 树和 CSSOM 规则树构建渲染树。渲染树的节点被称为渲染对象，渲染对象是一个包含有颜色和大小等属性的矩
+     形，渲染对象和 DOM 元素相对应，但这种对应关系不是一对一的，不可见的 DOM 元素不会被插入渲染树。还有一些 DOM 
+     元素对应几个可见对象，它们一般是一些具有复杂结构的元素，无法用一个矩形来描述。
+
+ （4）当渲染对象被创建并添加到树中，它们并没有位置和大小，所以当浏览器生成渲染树以后，就会根据渲染树来进行布局（也
+     可以叫做回流）。这一阶段浏览器要做的事情是要弄清楚各个节点在页面中的确切位置和大小。通常这一行为也被称为“自动
+     重排”。
+
+ （5）布局阶段结束后是绘制阶段，遍历渲染树并调用渲染对象的 paint 方法将它们的内容显示在屏幕上，绘制使用 UI 基础组
+     件。
+
+  值得注意的是，这个过程是逐步完成的，为了更好的用户体验，渲染引擎将会尽可能早的将内容呈现到屏幕上，并不会等到所有的
+  html 都解析完成之后再去构建和布局 render 树。它是解析完一部分内容就显示一部分内容，同时，可能还在通过网络下载其
+  余内容。
+</code></pre></div><p>详细资料可以参考：
+<a href="https://juejin.im/book/5bdc715fe51d454e755f75ef/section/5bdc7207f265da613c09425d" target="_blank" rel="noopener noreferrer">《浏览器渲染原理》<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> <a href="https://coolshell.cn/articles/9666.html" target="_blank" rel="noopener noreferrer">《浏览器的渲染原理简介》<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> <a href="https://kb.cnblogs.com/page/129756/" target="_blank" rel="noopener noreferrer">《前端必读：浏览器内部工作原理》<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> <a href="https://blog.fundebug.com/2019/01/03/understand-browser-rendering/" target="_blank" rel="noopener noreferrer">《深入浅出浏览器渲染原理》<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h4 id="_18-渲染过程中遇到-js-文件怎么处理？（浏览器解析过程）"><a href="#_18-渲染过程中遇到-js-文件怎么处理？（浏览器解析过程）" class="header-anchor">#</a> 18. 渲染过程中遇到 JS 文件怎么处理？（浏览器解析过程）</h4> <div class="language- extra-class"><pre class="language-text"><code> JavaScript 的加载、解析与执行会阻塞文档的解析，也就是说，在构建 DOM 时，HTML 解析器若遇到了 JavaScript，那么
+ 它会暂停文档的解析，将控制权移交给 JavaScript 引擎，等 JavaScript 引擎运行完毕，浏览器再从中断的地方恢复继续解
+ 析文档。
+
+ 也就是说，如果你想首屏渲染的越快，就越不应该在首屏就加载 JS 文件，这也是都建议将 script 标签放在 body 标签底部的
+ 原因。当然在当下，并不是说 script 标签必须放在底部，因为你可以给 script 标签添加 defer 或者 async 属性。
+</code></pre></div><h4 id="_19-async-和-defer-的作用是什么？有什么区别？（浏览器解析过程）"><a href="#_19-async-和-defer-的作用是什么？有什么区别？（浏览器解析过程）" class="header-anchor">#</a> 19. async 和 defer 的作用是什么？有什么区别？（浏览器解析过程）</h4> <div class="language- extra-class"><pre class="language-text"><code> （1）脚本没有 defer 或 async，浏览器会立即加载并执行指定的脚本，也就是说不等待后续载入的文档元素，读到就加载并执
+     行。
+
+ （2）defer 属性表示延迟执行引入的 JavaScript，即这段 JavaScript 加载时 HTML 并未停止解析，这两个过程是并行的。
+     当整个 document 解析完毕后再执行脚本文件，在 DOMContentLoaded 事件触发之前完成。多个脚本按顺序执行。
+
+ （3）async 属性表示异步执行引入的 JavaScript，与 defer 的区别在于，如果已经加载好，就会开始执行，也就是说它的执
+     行仍然会阻塞文档的解析，只是它的加载过程不会阻塞。多个脚本的执行顺序无法保证。
+</code></pre></div><p>详细资料可以参考：
+<a href="https://segmentfault.com/q/1010000000640869" target="_blank" rel="noopener noreferrer">《defer 和 async 的区别》<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <h4 id="_20-什么是文档的预解析？（浏览器解析过程）"><a href="#_20-什么是文档的预解析？（浏览器解析过程）" class="header-anchor">#</a> 20. 什么是文档的预解析？（浏览器解析过程）</h4> <div class="language- extra-class"><pre class="language-text"><code> Webkit 和 Firefox 都做了这个优化，当执行 JavaScript 脚本时，另一个线程解析剩下的文档，并加载后面需要通过网络加
+ 载的资源。这种方式可以使资源并行加载从而使整体速度更快。需要注意的是，预解析并不改变 DOM 树，它将这个工作留给主解析
+ 过程，自己只解析外部资源的引用，比如外部脚本、样式表及图片。
+</code></pre></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/SuYxh/vpBlog/edit/master/docs/interview/html/ih_two.md" target="_blank" rel="noopener noreferrer">在Github上编辑此页！</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">最近更新：:</span> <span class="time">2020-4-12 18:16:35</span></div></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/vpBlog/assets/js/app.7ab862eb.js" defer></script><script src="/vpBlog/assets/js/2.3d0e44ac.js" defer></script><script src="/vpBlog/assets/js/64.4535aaa0.js" defer></script>
+  </body>
+</html>
